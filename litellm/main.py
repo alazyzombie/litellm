@@ -116,12 +116,12 @@ from litellm.llms.vertex_ai.common_utils import (
     VertexAIModelRoute,
     get_vertex_ai_model_route,
 )
-from litellm.realtime_api.main import _realtime_health_check
-from litellm.secret_managers.main import get_secret_bool, get_secret_str
-from litellm.types.main import (
+from litellm.main_types import (
     _CompletionDispatchContext,
     _CompletionDispatchResult,
 )
+from litellm.realtime_api.main import _realtime_health_check
+from litellm.secret_managers.main import get_secret_bool, get_secret_str
 from litellm.types.router import GenericLiteLLMParams
 from litellm.types.utils import (
     CustomPricingLiteLLMParams,

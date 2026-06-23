@@ -6,7 +6,7 @@ import pytest
 
 sys.path.insert(0, os.path.abspath("../.."))
 
-from litellm.types.main import _CompletionDispatchContext
+from litellm.main_types import _CompletionDispatchContext
 
 
 def _build_context() -> _CompletionDispatchContext:
